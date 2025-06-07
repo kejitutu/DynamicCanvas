@@ -1,0 +1,178 @@
+.wzfb-top{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(194, 193, 193);
+    box-shadow: 20px -20px 10px 20px;
+    background-color: #fff;
+    z-index: 9999;
+}
+.wzfb-logo{
+    display: flex;
+    height: 80px;
+}
+.wzfb-logo .row{
+   align-self: center;
+    
+}
+.row h1 a{
+    width: 180px;
+    height: 66px;
+    display: inline-block;
+    text-indent: -9999px;
+    background: url(../images/logo.jpg);
+    background-size: 180px 66px;
+}
+.wzfb-nav{
+    height: 80px;
+}
+.wzfb-nav ul{
+    height: 65px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wzfb-nav ul li{
+    width:100%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;  
+}
+.wzfb-nav ul li a{
+    font-weight: bold;
+}
+.wzfb-nav ul li a:hover{
+    color: #fff;
+}
+.wzfb-nav ul li:hover{
+    width:100%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #7BBBEB;
+}
+.subtitle{
+    font-size: 20px;
+    height: 100px;
+    text-align: center;
+    margin-top: 95px;
+    font-weight: bold;
+}
+.subtitle h2{
+    line-height: 100px;
+}
+.brief .wzfb-brief1{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.brief .wzfb-brief2{
+    height: 50px;
+    text-align: center;
+}
+.wzfb-brief1,.wzfb-brief2{
+    font-size: 16px;
+}
+.image-text{
+    padding-top: 30px;
+}
+.wzfb-block ul{
+    width: 100%;
+    height: 350px;
+    margin:30px 10px;
+    border-radius: 15px;
+    transition: all .7s ease 0.05s;
+    box-shadow: 0px 0px 20px 10px rgb(209, 207, 207);
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+.wzfb-block a{
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+}
+.image-text img{
+    width: 280px;
+    height: 265px;
+    transition: all .7s ease 0.05s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-60%);
+}
+.wzfb-block h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wzfb-block ul:hover{
+    transform: scale(1.1);
+}
+.wzfb-block span {
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+    padding:  0 20px;
+    transition: all .7s ease 0.05s;
+    z-index: 1;
+}
+.wzfb-block p{
+    padding: 15px 10px 0 10px;
+    overflow: hidden;
+}
+.wzfb-block ul:hover img{
+    transform: scale(1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-60%);
+}
+.wzfb-block ul:hover span{
+    transform: translatey(-90px);
+    border-radius: 15px;
+    background-color: rgb(165, 163, 163);
+    opacity: 0.8;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+}
+.wzfb-block ul:hover h4{
+    font-weight: bold;
+}
+.wzfb-footer{
+    padding-bottom: 30px;
+}
+.wzfb-footer-1{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+}
+.wzfb-footer-1 h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+.wzfb-footer-1 a{
+    color: rgb(138, 138, 138);
+}
+.main{
+    background:url(../images/bg.jpg) no-repeat;
+}
+.subtitle h2{
+    background: url(../images/title_bg1.png) no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.brief{
+    color: #000;
+    font-size: 16px;
+}
+.brief .wzfb-brief1{
+    margin-top: 30px;
+}
+.row h1 a{
+    text-align: center;
+}
